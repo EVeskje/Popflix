@@ -27,7 +27,7 @@ const fetchMovies = async () => {
       hideLoader(); // Hide loader after fetching movies
     } catch (error) {
       console.error("Error fetching movies:", error);
-      hideLoader(); // Make sure to hide the loader in case of an error
+      hideLoader(); // Hide the loader in case of an error
     }
   };
 
@@ -82,7 +82,7 @@ const fetchFeaturedProduct = async () => {
       }
     } catch (error) {
       console.error("Error fetching featured product:", error);
-      hideLoader(); // Make sure to hide the loader in case of an error
+      hideLoader(); // Hide the loader in case of an error
     }
   };
   
