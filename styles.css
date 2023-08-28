@@ -126,6 +126,7 @@ body {
     width: 60%;
     height: auto;
     border-radius: 10px;
+    min-width: 184px;
   }
   
   .home-icon {
